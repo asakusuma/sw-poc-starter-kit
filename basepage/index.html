@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+      navigator.serviceWorker.register('sw.js');
+    </script>
+  </head>
+  <body>
+    <h1>SW Test App</h1>
+    <button onclick="fetch('/directive')">Server directive</button>
+  </body>
+</html>
